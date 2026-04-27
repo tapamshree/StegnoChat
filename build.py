@@ -2,13 +2,13 @@ import subprocess
 import sys
 
 def build():
-    print("Building WA-Stego...")
+    print("Building Stegnochat...")
     subprocess.check_call([
         sys.executable, "-m", "PyInstaller",
         "--noconfirm",
         "--onedir",
         "--windowed",
-        "--name", "WA-Stego",
+        "--name", "Stegnochat",
         "main.py"
     ])
     print("Build complete.")

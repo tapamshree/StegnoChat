@@ -16,7 +16,7 @@ class TrayIcon:
         self.app = app
         self.tray = QSystemTrayIcon()
         self.tray.setIcon(create_icon())
-        self.tray.setToolTip("WA-Stego")
+        self.tray.setToolTip("Stegnochat")
 
     def setup(self):
         menu = QMenu()
