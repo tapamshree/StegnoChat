@@ -4,14 +4,14 @@ Stegnochat is a secure desktop companion application that provides visual stegan
 
 When "Secure Mode" is activated, Stegnochat intercepts your outgoing messages, encodes them into zero-width characters, and sends them via WhatsApp. On the receiving end (or your own screen when Secure Mode is active), Stegnochat automatically decodes these hidden messages and displays them as a seamless green overlay directly on top of the WhatsApp interface.
 
-## ✨ Features
+##  Features
 * **Zero-Width Steganography**: Messages are encoded into invisible characters and attached to a cover text (e.g., an emoji). To anyone without the app, it just looks like you sent a normal emoji.
 * **Secure Mode & PIN Gate**: Your decrypted messages are protected by a secure PIN. If Secure Mode is OFF, all overlays are hidden, and only the cover text is visible.
 * **Local Message Cache**: Since WhatsApp strips zero-width characters in its accessibility APIs, Stegnochat caches your sent messages locally. This ensures you can seamlessly read the messages you've already sent when you switch Secure Mode back ON.
 * **Floating UI Overlay**: Provides a clean, non-intrusive toolbar at the top of your WhatsApp window to easily toggle Secure Mode.
 * **System Tray Integration**: Run the app in the background and control it directly from your Windows system tray.
 
-## 🚀 How to Run
+##  How to Run
 
 ### Requirements
 * Python 3.10+
@@ -34,14 +34,14 @@ When "Secure Mode" is activated, Stegnochat intercepts your outgoing messages, e
    python main.py
    ```
 
-## 🛠️ Building the Executable
+##  Building the Executable
 If you want to package Stegnochat into a standalone Windows executable (`.exe`), simply run the included build script:
 ```cmd
 python build.py
 ```
 The compiled executable will be located in the `dist` folder.
 
-## 📝 Usage
+##  Usage
 1. Open WhatsApp Desktop.
 2. Launch **Stegnochat**. You will see a toolbar overlay appear at the top of your WhatsApp window.
 3. Click the toggle switch to turn **ON** Secure Mode. You will be prompted to set or enter your PIN.
