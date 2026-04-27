@@ -1,0 +1,15 @@
+venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.pyo
+watcher_debug.log
+msg_cache.json
+config.json
+text_dump.txt
+text_dump_all.txt
+wa_dump.txt
+windows.txt
+build/
+dist/
+*.spec
